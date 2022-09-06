@@ -1,0 +1,47 @@
+:root {
+  --primary: rgb(106, 240, 195);
+  --secondary: rgb(59, 59, 59);
+  --terciary: rgb(238, 237, 237);
+  --bolded: 700;
+  --drop-shadow: rgba(22, 22, 22, 0.685);
+}
+
+
+section {
+  padding: 10%;
+}
+
+.container-fluid {
+  background-color: var(--secondary);
+}
+
+.row {
+  padding: 10%;
+}
+
+.cart {
+  background-color: var(--terciary);
+}
+
+.title {
+  color: var(--primary);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.menu {
+  border: .3rem solid white;
+  border-radius: .5rem;
+}
+
+.item {
+  font-size: 10px;
+  color: var(--primary);
+  background-color: var(--terciary);
+  padding: 2%;
+
+}
